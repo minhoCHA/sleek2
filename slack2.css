@@ -1,0 +1,152 @@
+.m-square-list{list-style:none;margin-left:0;padding-left:0}
+.m-square-list>li:not(.c-stat){padding-left:30px}
+.m-square-list>li:not(.c-stat):before{font-family:arial,helvetica,sans-serif;position:relative;float:left;color:var(--theme-bullet-color);text-indent:-30px;speak:none;content:'\25A0';top:-3px}
+.floating-video-parent{position:relative}
+.floating-video-parent video{display:block}
+.floating-video-container-padding{padding:0 4vw}
+@media screen and (min-width:48rem){.floating-video-container{position:absolute}
+.floating-video-container-padding{padding:0}
+.floating-video{position:relative}
+.floating-video.v--centered{top:-2.3rem;left:5rem}
+}
+.floating-video.v--shadow{box-shadow:0 18px 48px rgba(0,0,0,.1);border-radius:5px;overflow:hidden;background-color:#fff}
+.floating-video.v--centered{position:relative}
+@media screen and (min-width:64rem){.floating-video.v--centered{margin:0 auto;left:0}
+}
+.o-hero.v--short{padding-bottom:4.2rem}
+@media screen and (min-width:48rem){.o-two-columns{grid-template-columns:40.24390244% 48.7804878%;grid-column-gap:10.97560976%}
+.o-two-columns>:last-child{margin:0}
+.o-hero.v--short{padding-bottom:10rem}
+}
+.o-section__background{z-index:-1;position:absolute;top:0;right:0;bottom:0;left:0;height:100%}
+.is-edge .o-section__background--video,.is-ie .o-section__background--video{height:100%;width:246.153846154vh;min-width:100%;min-height:40.625vw}
+.o-section__background.v--photo{background-size:cover;background-repeat:no-repeat;background-position:center top}
+.o-section__background.v--screen:after{display:block;content:"";position:absolute;top:0;right:0;bottom:0;left:0;background-color:rgba(0,0,0,.5)}
+.o-section__background--still{background-image:url(/e614b/marketing/img/slack-vs-email/video/stills/stay-looped-in-mobile.jpg);background-size:cover;background-repeat:no-repeat;background-position:top center}
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){.o-section__background--still{background-image:url(/e614b/marketing/img/slack-vs-email/video/stills/stay-looped-in-mobile@2x.jpg)}
+}
+@media screen and (min-width:48rem) and (max-width:1023px){.o-section__background--still{background-image:url(/e614b/marketing/img/slack-vs-email/video/stills/stay-looped-in-tablet.jpg);background-position:bottom center}
+}
+@media screen and (min-width:48rem) and (max-width:1023px) and (-webkit-min-device-pixel-ratio:2),screen and (min-width:48rem) and (max-width:1023px) and (min-resolution:192dpi){.o-section__background--still{background-image:url(/e614b/marketing/img/slack-vs-email/video/stills/stay-looped-in-tablet@2x.jpg)}
+}
+@media screen and (min-width:64rem){.o-section__background--still{display:none}
+.is-mobile .o-section__background--still{display:block;background-image:url(/e614b/marketing/img/slack-vs-email/video/stills/stay-looped-in.jpg)}
+}
+@media screen and (min-width:64rem) and (-webkit-min-device-pixel-ratio:2),screen and (min-width:64rem) and (min-resolution:192dpi){.is-mobile .o-section__background--still{background-image:url(/e614b/marketing/img/slack-vs-email/video/stills/stay-looped-in@2x.jpg)}
+}
+.o-section__background--video{margin:auto;max-width:100%;object-fit:cover;display:none}
+@media screen and (min-width:64rem){.o-section__background--video{display:block}
+}
+.o-section--feature__link{display:inline-block}
+.o-section--feature__dedicated{background-color:#e5c7c1}
+.o-section--feature__dedicated .o-section--feature__link{margin-bottom:2rem}
+@media screen and (min-width:64rem){.o-section--feature__dedicated .o-section--feature__link{margin-bottom:5rem}
+.o-section--feature__dedicated .o-two-columns__first .floating-video{max-width:483px;top:-3rem}
+}
+@media screen and (min-width:80rem){.o-section--feature__dedicated .o-section--feature__link{margin-bottom:.6rem}
+.o-section--feature__dedicated .o-two-columns__first .floating-video{top:1rem}
+}
+.o-section--feature__faster{margin-bottom:3rem}
+@media screen and (min-width:48rem){.o-section--feature__faster{margin-bottom:0}
+.o-section--feature__faster .floating-video{max-width:283px;margin:0 auto}
+}
+@media screen and (min-width:64rem){.o-section--feature__faster .floating-video{max-width:440px}
+}
+.o-section--feature__faster .floating-video-container.v--centered{left:50%;transform:translateX(-50%);bottom:-256px}
+.o-section--feature__faster .o-two-columns__second{padding-bottom:3rem}
+@media screen and (min-width:48rem){.o-section--feature__faster .o-two-columns__second{padding-bottom:0}
+.o-section--feature__faster .o-two-columns__second .floating-video-container{position:relative}
+.o-section--feature__faster .o-two-columns__second .floating-video{max-width:100%}
+}
+.o-section--feature__looped{padding:10rem 0;margin-bottom:3rem;position:relative}
+@media screen and (min-width:48rem){.o-section--feature__looped{padding:6rem 0;margin-bottom:0;min-height:600px}
+.o-section--feature__switching{margin-bottom:14rem}
+}
+@media screen and (min-width:64rem){.o-section--feature__looped .o-two-columns__second{padding:0 4rem}
+.o-section--feature__switching{margin-bottom:24rem}
+}
+.o-section--feature__switching{background-color:#d4e6d5;padding-bottom:0}
+.o-section--feature__switching .o-section--feature__link{margin-bottom:2rem}
+.o-section--feature__switching .floating-video{max-width:495px}
+@media screen and (min-width:48rem){.o-section--feature__switching .o-section--feature__link{margin-bottom:5.2rem}
+.o-section--feature__switching .floating-video{max-width:100%}
+.o-section--feature__switching .o-two-columns__first .floating-video-container{margin-top:-3rem}
+}
+.o-section--feature__switching .o-two-columns__first .floating-video{max-width:483px}
+@media screen and (min-width:80rem){.o-section--feature__switching .o-section--feature__link{margin-bottom:8.2rem}
+.o-section--feature__switching .o-two-columns__first .floating-video-container{margin-top:-6rem}
+.floating-video-dedicated.floating-video-parent{min-width:600px}
+}
+@media screen and (min-width:48rem){.o-section--feature__switching+.o-section:not(.c-cta){padding-top:0;padding-bottom:5rem}
+.floating-video-dedicated .floating-video-container{position:relative}
+}
+.floating-video-dedicated .floating-video{background-color:#cd9485}
+.floating-video-switching{padding-bottom:3rem;width:100%}
+.floating-video-switching .floating-video{background-color:#bbdac4}
+@media screen and (min-width:64rem){.floating-video-dedicated .floating-video-container{position:absolute}
+.floating-video-dedicated .floating-video,.floating-video-switching .floating-video{max-width:600px}
+.floating-video-switching.floating-video-parent{min-width:600px}
+}
+.o-two-columns__first{padding-bottom:3rem}
+.o-hero__content--brand-campaign{max-width:100vw}
+.o-hero__content--brand-campaign .o-hero__background--brand-campaign{background:url(/281c2/marketing/img/brand_campaign/work_desktop_hero.jpg) center center no-repeat;background-size:cover}
+@media screen and (min-width:0) and (max-width:767px){.o-hero__content--brand-campaign .o-hero__background--brand-campaign{background-image:url(/549b2/marketing/img/brand_campaign/work_mobile_hero.jpg)}
+}
+@media screen and (min-width:0) and (max-width:767px) and (-webkit-min-device-pixel-ratio:2),screen and (min-width:0) and (max-width:767px) and (min-resolution:192dpi){.o-hero__content--brand-campaign .o-hero__background--brand-campaign{background-image:url(/a6ca/marketing/img/brand_campaign/work_mobile_hero@2x.jpg)}
+}
+@media screen and (min-width:48rem) and (max-width:1023px){.o-hero__content--brand-campaign .o-hero__background--brand-campaign{background-image:url(/a6ca/marketing/img/brand_campaign/work_tablet_hero.jpg)}
+.o-hero__content--brand-campaign .c-type-headline-jumbo:lang(de),.o-hero__content--brand-campaign .c-type-headline-jumbo:lang(fr){margin-top:4rem}
+}
+@media screen and (min-width:48rem) and (max-width:1023px) and (-webkit-min-device-pixel-ratio:2),screen and (min-width:48rem) and (max-width:1023px) and (min-resolution:192dpi){.o-hero__content--brand-campaign .o-hero__background--brand-campaign{background-image:url(/a6ca/marketing/img/brand_campaign/work_tablet_hero@2x.jpg)}
+}
+@media screen and (min-width:48rem) and (max-width:1023px){.o-hero__content--brand-campaign .c-type-paragraph-hero{width:57%;margin:0 auto 1em}
+}
+.c-youtube-video--showcase{margin-top:-5rem!important;margin-bottom:5rem!important}
+@media screen and (min-width:48rem){.o-two-columns__first{padding-bottom:0}
+.c-youtube-video--showcase{margin-top:-12rem!important}
+}
+@media screen and (min-width:64rem){.c-youtube-video--showcase{margin-bottom:7.7rem!important}
+}
+.c-youtube-video--showcase__link{padding:0 4vw}
+.c-quote{margin-top:5.6rem;margin-bottom:5.6rem}
+@media screen and (min-width:38.5rem){.c-quote{display:grid;grid-template-columns:.35fr 1fr;grid-template-rows:1fr;grid-gap:5rem;justify-content:center;max-width:900px}
+}
+.c-quote.v--no-stat{grid-template-columns:none;max-width:650px}
+.c-quote__heading{border-top:0}
+@media screen and (min-width:48rem) and (-ms-high-contrast:none),(-ms-high-contrast:active){.c-quote__heading{margin-right:2rem}
+}
+@media screen and (min-width:48rem){.c-quote{margin-top:8rem;margin-bottom:8rem}
+.c-quote__heading{margin-top:0;border-top:1px solid #696969}
+}
+@supports not ((display:grid) and (grid-column-gap:1%)){@media screen and (min-width:48rem){.c-quote__heading{margin-right:2rem}
+}
+@media screen and (min-width:38.5rem){.c-quote{display:flex;justify-content:space-between}
+.c-quote__heading{max-width:212px}
+}
+}
+@media screen and (min-width:38.5rem) and (-ms-high-contrast:none),(-ms-high-contrast:active){.c-quote{display:flex;justify-content:space-between}
+.c-quote__heading{max-width:212px}
+.c-quote__content{max-width:600px}
+}
+.c-quote__content{position:relative}
+@supports not ((display:grid) and (grid-column-gap:1%)){@media screen and (min-width:38.5rem){.c-quote__content{max-width:600px}
+}
+}
+.c-quote__content__quote{margin-bottom:2rem;font-style:italic}
+@media screen and (min-width:64rem){.c-quote__content__quote{margin:0 0 1rem}
+}
+.c-quote__content__attribution__label{margin-bottom:.25rem}
+.c-quote__content__attribution_image{margin-bottom:1.5rem}
+.c-quote__content__attribution_image img{overflow:hidden;border-radius:50%}
+.c-quote__content__attribution_image.v--company-logo img{border-radius:unset}
+.c-quote__content__attribution__source{margin-bottom:.25rem}
+.c-quote .c-stat__number{color:#1d1d1d}
+@media screen and (min-width:48rem){.c-quote .c-stat__number{margin-top:1rem}
+}
+.c-quote--lyft{margin-top:5.6rem;margin-bottom:2rem}
+@media screen and (min-width:48rem){.c-quote--lyft{margin-top:12.6rem}
+}
+@media screen and (min-width:80rem){.c-quote.v--with-image{padding-top:8rem}
+.c-quote--lyft{margin-top:11rem}
+.c-quote--cole-haan{margin-top:0}
+}
